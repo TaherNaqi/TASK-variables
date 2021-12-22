@@ -11,8 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+let fullName = "Taher Naqi";
+let yearOfBirth = 1994;
+let hobby = "Playing video games and coding";
+let funFact = "Video games made me become an engineer";
+const image = "https://thumbs.dreamstime.com/b/computer-engineer-icon-computer-engineer-icon-male-symbol-computer-monitor-133454721.jpg";
 
 
 
@@ -28,11 +31,10 @@
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
-
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
-
+ let age = 2021 - yearOfBirth;
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString = `I am ${age} years old.`;
+ const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +47,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars+=1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars-=1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2;
 }
